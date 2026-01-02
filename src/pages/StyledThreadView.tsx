@@ -18,7 +18,7 @@ const StyledThreadView: React.FC = () => {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .changeDelay(80)
+                            .changeDelay(5)
                             .typeString("This is much better, isn't it?")
                             .pauseFor(1000)
                             .callFunction(showTips)
